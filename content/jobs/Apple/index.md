@@ -1,10 +1,10 @@
 ---
-date: '2017-12-21'
-title: 'UI Engineer Co-op'
-company: 'Apple'
-location: 'Cupertino, CA'
-range: 'July - December 2017'
-url: 'https://www.apple.com/music/'
+date: '2024-04-15'
+title: 'Full-stack Engineer'
+company: 'Diatoz'
+location: 'Bangalore, IN'
+range: 'December 2020 - December 2021'
+url: 'https://www.e2ehiring.com/'
 ---
 
 - Developed and styled interactive web applications for Apple Music using Ember and SCSS
