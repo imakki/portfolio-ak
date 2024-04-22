@@ -125,7 +125,18 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Node.js'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'TypeScript',
+    'React',
+    'React Native',
+    'Flutter',
+    'Node.js',
+    'Python',
+    'Spring Boot',
+    'MongoDB',
+    'PostgreSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -141,11 +152,11 @@ const About = () => {
               about HTML &amp; CSS!
             </p>
 
-            <p>
+            {/* <p>
               Fast-forward to today, and I’ve had the privilege of working at{' '}
               <a href="https://triomics.com/">Triomics:health-tech start-up</a>,{' '}
               <a href="https://e2ehiring.com/">E2Ehiring: Hiring platform</a>,{' '}
-            </p>
+            </p> */}
 
             <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
