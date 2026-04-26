@@ -300,6 +300,20 @@ const StyledProject = styled.li`
         filter: grayscale(100%) contrast(1) brightness(50%);
       }
     }
+
+    .placeholder {
+      display: flex;
+      min-height: 360px;
+      align-items: center;
+      justify-content: center;
+      padding: 40px;
+      background: radial-gradient(circle at 20% 20%, rgba(100, 255, 218, 0.22), transparent 28%),
+        linear-gradient(135deg, var(--light-navy), var(--lightest-navy));
+      color: var(--lightest-slate);
+      font-family: var(--font-mono);
+      font-size: clamp(16px, 2vw, 24px);
+      text-align: center;
+    }
   }
 `;
 
@@ -356,7 +370,7 @@ const Featured = () => {
           [featuredProjects].map(({ node }, i) => {
             const { frontmatter, html } = node;
             const { external, title, tech, github, cover, cta } = frontmatter;
-            const image = getImage(cover);
+            const image = cover ? getImage(cover) : null;
 
             return (
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
@@ -403,7 +417,11 @@ const Featured = () => {
 
                 <div className="project-image">
                   <a href={external ? external : github ? github : '#'}>
-                    <GatsbyImage image={image} alt={title} className="img" />
+                    {image ? (
+                      <GatsbyImage image={image} alt={title} className="img" />
+                    ) : (
+                      <div className="img placeholder">{title}</div>
+                    )}
                   </a>
                 </div>
               </StyledProject>

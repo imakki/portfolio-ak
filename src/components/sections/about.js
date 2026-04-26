@@ -126,16 +126,16 @@ const About = () => {
   }, []);
 
   const skills = [
-    'JavaScript (ES6+)',
-    'TypeScript',
     'React',
-    'React Native',
-    'Flutter',
+    'TypeScript',
+    'Next.js',
+    'GraphQL',
+    'Apollo Client',
+    'Server Driven UI',
+    'XState',
     'Node.js',
-    'Python',
-    'Spring Boot',
-    'MongoDB',
-    'PostgreSQL',
+    'Jest',
+    'Cypress',
   ];
 
   return (
@@ -146,10 +146,15 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Ankit and I enjoy creating things that live on the internet. My
-              interest in web development started in college when I decided to try editing custom
-              wordpress themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              Hello! My name is Ankit and I’m a senior frontend / product engineer with 4+ years of
+              experience building scalable, high-performance web applications.
+            </p>
+
+            <p>
+              I’m currently working at Flipkart on product-facing frontend systems, dynamic UI
+              architectures, and scalable platform capabilities. I’m especially interested in
+              AI-native product development, agentic workflows, and intuitive user experiences
+              powered by intelligent systems.
             </p>
 
             {/* <p>

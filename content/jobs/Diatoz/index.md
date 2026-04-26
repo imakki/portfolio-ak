@@ -1,12 +1,12 @@
 ---
-date: '2024-04-15'
-title: 'Full-stack Engineer'
+date: '2021-01-01'
+title: 'Full Stack Engineer'
 company: 'Diatoz'
-location: 'Bangalore, IN'
-range: 'December 2020 - December 2021'
+location: 'Bengaluru, IN'
+range: '2021 - 2022'
 url: 'https://www.e2ehiring.com/'
 ---
 
-- Worked closely with team to build a hiring platform with both employer and job seeker, using React, Redux, NodeJs, Tailwind CSS
-- Developed a sophisticated Node.js logging system for centralized error tracking and request tracing across multiple systems, significantly improving diagnostics and troubleshooting processes.
-- Developed and implemented real-time data synchronization solutions using webhooks to fetch and update data from a CMS to a MongoDB database via GraphQL, enhancing system efficiency and data accuracy.
+- Developed full-stack applications using React, Node.js, and modern web technologies.
+- Built reusable UI components and backend services across multiple product features.
+- Worked across frontend and backend systems to deliver end-to-end application workflows.
